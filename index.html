@@ -8,11 +8,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   
-  <link rel="stylesheet"  href="css/animate.css">
-  
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="js/jquery.textillate.js" ></script>
-  <script src="js/jquery.lettering.js" ></script>
+  <script type="text/javascript" src="kazuaki/desktop/jquery-x.x.x.min.js"></script>
 </head>
 <body>
   <div class ="a1">Aki's Portfolio</div>
@@ -48,7 +44,15 @@
 <p>内容</p>
 </section>
 
-<h1>あいうえお</h1>
+
+<h1>jQueryライブラリーの読み込みテスト</h1>
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQueryライブラリの読み込み-->
+  <script>
+      //  自作のコードはライブラリ読み込みの後に。
+      alert($("h1").text());
+  </script>
 
 </body>
 </html>
