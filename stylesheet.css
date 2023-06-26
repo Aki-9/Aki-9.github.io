@@ -1,9 +1,10 @@
-.a1{
+li{
  font-size:40px;
  font-family:serif;
  width:auto;
  height:50;
- height: 100px; 
+ height: 100px;
+ float:left;
 }
 
 h1{
