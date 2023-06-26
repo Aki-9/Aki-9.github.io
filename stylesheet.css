@@ -18,11 +18,11 @@
 }
 
 #page-link li a::before{
+  list-style:none;
   content:'▼';
   font-size:0.8rem;
   padding:0 10px 0 0;
   color: #ccc;
-  list-style:none;
 }
 
 h1{
