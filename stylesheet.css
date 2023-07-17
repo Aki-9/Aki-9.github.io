@@ -10,6 +10,12 @@
   padding: 20px;
   font-family:serif;
 }
+.header-li{
+  color:#fff;
+  padding: 20px;
+  font-family:serif;
+  list-style:none;
+}
 #page-link{
   display: flex;
   justify-content: center;
