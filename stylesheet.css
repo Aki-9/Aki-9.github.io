@@ -38,11 +38,20 @@
 .p1 img {
   width: 100%;
   height: 600px;
-  object-fit: cover;
+}
+.p3 {
+  list-style:none;
+  float:left;
+  padding:20px;
 }
 
 h1{
   font-size:40px;
   font-family:serif;
   font-color:#6495ed;
+}
+.timeline {
+  max-width: 40%;
+  border: 1px solid #333;
+  padding: 10px;
 }
