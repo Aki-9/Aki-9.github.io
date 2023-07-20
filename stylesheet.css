@@ -52,7 +52,8 @@ h1{
   padding: 20px;
 }
 .youtubelink {
-width: 50%;
-height:50%;
-aspect-ratio: 16/9;
+ aspect-ratio: 16/9;
+}
+.youtubedescription{
+  font-family:serif;
 }
