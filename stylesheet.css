@@ -33,11 +33,17 @@
   color: #ccc;
 }
 .p1 img {
+  height:50%;
+  width: 50%;
 }
 .p3 {
   list-style:none;
   float:left;
   padding:20px;
+}
+.p4 img{
+  height:50%;
+  width: 50%;
 }
 h1{
   font-size:40px;
