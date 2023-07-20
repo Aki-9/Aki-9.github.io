@@ -33,8 +33,6 @@
   color: #ccc;
 }
 .p1 img {
-  width: 100%;
-  height: 600px;
 }
 .p3 {
   list-style:none;
@@ -52,6 +50,8 @@ h1{
   padding: 20px;
 }
 .youtubelink {
+ height:50%;
+ width: 50%;
  aspect-ratio: 16/9;
 }
 .youtubedescription{
