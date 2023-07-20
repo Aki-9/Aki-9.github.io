@@ -8,24 +8,6 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.slider').bxSlider({
-				auto: true,
-				pause: 5000,
-			});
-		});
-	</script>
-	<div class="slider">
-		<img src="IMG_7420.PNG" width="500" height="300" alt="">
-		<img src="IMG_0830.jpg" width="500" height="300" alt="">
-		<img src="IMG_7134.PNG" width="500" height="300" alt="">
-		<img src="IMG_0830.jpg" width="500" height="300" alt="">
-	</div>
 </head>
   
 <body>
@@ -41,6 +23,15 @@
 	  <li><a href="#area-5">Contact</a></li>
 	  <li><a href="#area-6">Advertisement</a></li>
   </ul>
+	<div class="sliderArea">
+		<div class="regular slider">
+			<div><img src="IMG_0830.jpg" alt="125naroom"></div>
+			<div><img src="IMG_7420.PNG" alt="125naroom"></div>
+			<div><img src="IMG_0830.jpg" alt="125naroom"></div>
+			<div><img src="IMG_7134.PNG" alt="125naroom"></div>
+			<div><img src="IMG_0830.jpg" alt="125naroom"></div>
+		</div>
+	</div>
 </div>
 
 
@@ -122,6 +113,15 @@
 	var pos = $(elmHash).offset().top;	//idの上部の距離を取得
 	$('body,html').animate({scrollTop: pos}, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
 	return false;});
+</script>
+<script>
+   $(document).on('ready', function() {
+	$(".regular").slick({
+		autoplay: true, // 自動再生を設定
+		autoplaySpeed: 4000, // 自動再生のスピード（ミリ秒単位）
+		dots: true // ドットインジケーターの表示
+	});
+   });
 </script>
   
 </body>
